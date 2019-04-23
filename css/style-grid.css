@@ -39,7 +39,20 @@
     text-align: center;
 }
 
-.main .map {
+.main .locationSection {
+    background-color: #9D8189;
+    
     grid-column: 2/6;
     grid-row: 2/3;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main .locationSection .map {
+    grid-column: 1/2;
+}
+
+.main .locationSection .address {
+    grid-column: 2/3;
 }
