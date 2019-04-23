@@ -38,6 +38,12 @@ h1 {
     font-size: 48px;
 }
 
+h2 {
+    font-family: 'Parisienne', cursive;
+    color: #584B53;
+    font-size: 36px;
+}
+
 p {
     font-family: 'Hind Madurai', sans-serif;
     color: #584B53;
