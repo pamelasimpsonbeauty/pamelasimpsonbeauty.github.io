@@ -57,6 +57,6 @@
     grid-column: 1/2;
 }
 
-.main .locationSection .address {
+.main .locationSection .addressSection {
     grid-column: 2/3;
 }

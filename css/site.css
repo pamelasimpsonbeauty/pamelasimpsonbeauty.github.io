@@ -60,6 +60,10 @@ p {
     line-height: 0.5;
 }
 
+#address {
+    padding-bottom: 25px;
+}
+
 a {
     color: #DB7093;
 }
