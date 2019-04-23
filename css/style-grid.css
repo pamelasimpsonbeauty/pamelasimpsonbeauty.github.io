@@ -47,6 +47,7 @@
     
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 25px;
 }
 
 .main .locationSection .map {
