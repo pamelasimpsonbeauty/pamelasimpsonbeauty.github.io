@@ -2,11 +2,13 @@
     display: grid;
     grid-template-columns: repeat(11, 1fr);
     grid-template-rows: auto auto;
+    background-color: #F7CED7;
 }
 
 .item1 {
     grid-column: 1/12;
     grid-row: 1/1;
+    background-color: #DB7093;
 }
 
 .item2 {
