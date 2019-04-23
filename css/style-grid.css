@@ -4,6 +4,10 @@
     grid-template-rows: auto auto;
 }
 
+.item1 {
+    grid-column: 1/12;
+}
+
 .item2 {
-    align-self: center;
+    grid-column: 1/12;
 }
