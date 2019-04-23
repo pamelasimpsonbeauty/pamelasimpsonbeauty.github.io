@@ -41,6 +41,7 @@
 
 .main .locationSection {
     background-color: rgba(157, 129, 137, 0.3);
+    border: 10px solid rgba(157, 129, 137, 0.1);
     padding: 25px;
     
     grid-column: 2/6;
