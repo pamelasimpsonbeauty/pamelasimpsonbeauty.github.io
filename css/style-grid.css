@@ -40,7 +40,7 @@
 }
 
 .main .locationSection {
-    background-color: #9D8189;
+    background-color: rgba(157, 129, 137, 0.5);
     padding: 25px;
     
     grid-column: 2/6;
