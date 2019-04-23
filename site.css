@@ -46,6 +46,11 @@ h2 {
 
 #content h2 {
     font-size: 24px;
+    color: #DB7093;
+}
+
+#content p {
+    font-size: 14px;
 }
 
 p {
