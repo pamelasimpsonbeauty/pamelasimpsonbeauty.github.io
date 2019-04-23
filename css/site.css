@@ -43,6 +43,15 @@ h3 {
     font-size: 14px;
 }
 
+.button {
+    background-color: #DB7093;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
 p {
     font-family: 'Hind Madurai', sans-serif;
     color: #584B53;
