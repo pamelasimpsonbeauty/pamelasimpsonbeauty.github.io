@@ -4,11 +4,7 @@ html, body {
 }
 
 body {
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
     background: #F7CED7;
-    text-align: center;
 }
 
 header {
