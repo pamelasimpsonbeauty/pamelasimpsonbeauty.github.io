@@ -22,7 +22,22 @@
 }
 
 .main {
-    grid-column: 5/4 span;
+    grid-column: 1/13;
     grid-row: 2/3;
-    text-align: center;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+.main .introText {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.main #map {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
 }
