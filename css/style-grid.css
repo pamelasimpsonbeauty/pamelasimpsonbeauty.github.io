@@ -9,11 +9,9 @@
     grid-column: 12 span;
     grid-row: 1 span;
     background-color: #DB7093;
-    align-content: center;
 }
 
 .item2 {
     grid-column: 5/4 span;
     grid-row: 1 span;
-    align-content: center;
 }
