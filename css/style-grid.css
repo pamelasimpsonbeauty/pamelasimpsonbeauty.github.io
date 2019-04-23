@@ -33,13 +33,13 @@
 }
 
 .main .introText {
-    grid-column: 2/3;
+    grid-column: 3/5;
     grid-row: 1/2;
     
     text-align: center;
 }
 
 .main .map {
-    grid-column: 2/3;
+    grid-column: 2/6;
     grid-row: 2/3;
 }
