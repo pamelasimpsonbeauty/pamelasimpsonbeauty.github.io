@@ -41,7 +41,7 @@
 
 .main .locationSection {
     background-color: #9D8189;
-    padding: 25px
+    padding: 25px;
     
     grid-column: 2/6;
     grid-row: 2/3;
@@ -49,6 +49,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 25px;
+    align-items: center;
 }
 
 .main .locationSection .map {
