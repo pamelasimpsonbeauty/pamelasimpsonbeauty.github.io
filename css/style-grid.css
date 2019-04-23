@@ -41,6 +41,7 @@
 
 .main .locationSection {
     background-color: #9D8189;
+    padding: 25px
     
     grid-column: 2/6;
     grid-row: 2/3;
