@@ -44,6 +44,10 @@ h2 {
     font-size: 36px;
 }
 
+#siteNotice h2 {
+    font-size: 24px;
+}
+
 p {
     font-family: 'Hind Madurai', sans-serif;
     color: #584B53;
