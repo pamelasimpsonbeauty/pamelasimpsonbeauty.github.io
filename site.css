@@ -47,3 +47,7 @@ p {
 a {
     color: #DB7093;
 }
+
+a:hover {
+    color: #D8CFAF;
+}
