@@ -27,13 +27,15 @@
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
 }
 
 .main .introText {
     grid-column: 2/3;
     grid-row: 1/2;
     justify-self: center;
+    
+    text-align: center;
 }
 
 .main .map {
