@@ -23,13 +23,13 @@
         </header>
         
         <main>
-            
+        
             <h1>Stay tuned</h1>
             <p>Our new website is coming soon!</p>
             <p>In the meantime, contact us at:</p>
             <p><a href="linkto:pamela@pamelasimpsonbeauty.com">pamela@pamelasimpsonbeauty.com</a></p>
             <p>(949) 315-1615</p>
-            
+
             <div id="map"></div>
             
         </main>
@@ -62,7 +62,18 @@
                     {"featureType": "water","elementType": "labels.text.fill","stylers": [{"color": "#005588"},{"visibility": "simplified"}]}
                     ]
                 });
-                var marker = new google.maps.Marker({position: salonSerenity, map: map});
+                
+                var contentString = 
+                    '<div id="content">'+
+                        '<div id="siteNotice">'+'</div>'+
+                        '<h1 id="firstHeading" class="firstHeading">Pamela Simpson Beauty Salong</h1>'+
+                        '<div id="bodyContent">'+
+                            '<p>located inside Salon Serenity</p>'+
+                        '</div>'+
+                    '</div>';
+                var infowindow = new google.maps.InfoWindow({content: contentString});
+                var marker = new google.maps.Marker({position: salonSerenity, map: map, title: 'Pamela Simpson Beauty Salon'});
+                marker.addListener('click', function() {infowindow.open(map, marker);});
             }
         </script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBe1LKnLpDwpbdeZMnsCBROF6tBQV9-50w&callback=initMap"></script>
