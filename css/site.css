@@ -179,7 +179,11 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
 --------------------------------------------------*/
 @supports (grid-area: auto) {    
     @media screen and (min-width: 50em) {
-        
+        .grid-container {
+            max-width: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
     }
  
     @media screen and (min-width: 65em) {
