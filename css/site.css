@@ -135,6 +135,14 @@ main div {
     font-family: 'Hind Madurai', sans-serif;
 }
 
+.button:hover {
+    background-color: #FDF6FA;
+}
+
+.button a:hover {
+    color: #FFFFFF;
+}
+
 /*--------------------------------------------------
 USE FLEX TO CREATE A THREE BUCKET LAYOUT:
 --------------------------------------------------*/
