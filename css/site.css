@@ -111,7 +111,7 @@ main div {
 
 .introText, .locationSection {
     background-color: #FDF6FA;
-    padding: 1em 1em;
+    padding: 1em 0;
     box-shadow: 5px 5px 5px 5px rgba(63,48,56,0.3);
     margin-bottom: 2.5em;
 }
