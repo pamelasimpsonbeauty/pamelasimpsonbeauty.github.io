@@ -54,7 +54,7 @@ h3 {
 }
 
 p {
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: #404040;
     font-size: 1em;
     line-height: 0.5;
@@ -141,7 +141,7 @@ main div {
     cursor: pointer;
     padding: 10px 15px;
     text-decoration: none;
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .button:hover {
