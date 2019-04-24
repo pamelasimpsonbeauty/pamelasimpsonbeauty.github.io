@@ -38,6 +38,7 @@ h1 {
     font-family: 'Parisienne', cursive;
     color: #F361AF;
     font-size: 4em;
+    line-height: 1;
 }
 
 h2 {
@@ -62,7 +63,7 @@ p {
 .introText h2 {
     font-family: 'Lora', cursive;
     font-size: 1.2em;
-    color: #3F3038;
+    color: rgba(63, 48, 56, 0.85);
 }
 
 #mapInfoWindow h2 {
