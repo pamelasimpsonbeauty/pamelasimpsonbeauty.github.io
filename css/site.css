@@ -213,6 +213,9 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
         
         .address {
             grid-column: 2/3;
+            
+            padding-top: 1em;
+            padding-bottom: 3em;
         }
         
         .footer {
