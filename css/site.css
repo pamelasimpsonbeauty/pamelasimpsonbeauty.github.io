@@ -90,9 +90,13 @@ header {
     background-color: #DB7093;
 }
 
-header img {
+.logo {
     max-height: 80%;
     width: 100%;
+}
+
+main {
+    background-color: #F7CED7;
 }
 
 #map {
