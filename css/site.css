@@ -1,6 +1,35 @@
 /*--------------------------------------------------
 ACCESSIBILITY:
 --------------------------------------------------*/
+/* Text meant only for screen readers */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}
 
 /*--------------------------------------------------
 TYPOGRAPHY:
@@ -82,6 +111,9 @@ header img {
     padding-bottom: 25px;
 }
 
+/*--------------------------------------------------
+USE FLEX TO CREATE A THREE BUCKET LAYOUT:
+--------------------------------------------------*/
 
 /*--------------------------------------------------
 BASIC RESPONSIVE LAYOUT FOR ALL BROWSERS:
@@ -94,69 +126,12 @@ BASIC RESPONSIVE LAYOUT FOR ALL BROWSERS:
 /*--------------------------------------------------
 CSS GRID LAYOUT FOR MODERN BROWSERS:
 --------------------------------------------------*/
-@media screen and (min-width: 50em) {
-    .grid-container {
-        max-width: none;
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: 20vw auto;
-        background-color: #F7CED7;
-        grid-row-gap: 25px;
+@supports (grid-area: auto) {    
+    @media screen and (min-width: 50em) {
+        
     }
+ 
+    @media screen and (min-width: 65em) {
 
-    .header {
-        background-color: #DB7093;
-
-        grid-column: 1/13;
-        grid-row: 1/2;
-
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr;
     }
-
-    .header img {
-        grid-column: 2/3;
-        grid-row: 1/2;
-        justify-self: center;
-    }
-
-    .main {
-        grid-column: 1/13;
-        grid-row: 2/3;
-
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: 1fr 2fr 1fr;
-    }
-
-    .main .introText {
-        grid-column: 3/5;
-        grid-row: 1/2;
-
-        text-align: center;
-    }
-
-    .main .locationSection {
-        background-color: rgba(157, 129, 137, 0.3);
-        border: 20px solid rgba(255, 255, 255, 0.1);
-        padding: 25px;
-
-        grid-column: 2/6;
-        grid-row: 2/3;
-
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 25px;
-        align-items: center;
-    }
-
-    .main .locationSection .mapSection {
-        grid-column: 1/2;
-    }
-
-    .main .locationSection .addressSection {
-        grid-column: 2/3;
-    }
-
 }
