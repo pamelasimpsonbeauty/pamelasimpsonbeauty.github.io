@@ -154,8 +154,15 @@ main div {
 
 footer {
     background-color: #F361AF;
-    color: #FFFFFF;
     padding: 2em 1em;
+}
+
+footer p {
+    color: #FFFFFF;
+}
+
+footer a {
+    color: #FEE1F0;
 }
 
 /*--------------------------------------------------
