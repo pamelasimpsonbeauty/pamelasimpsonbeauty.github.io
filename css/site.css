@@ -168,9 +168,10 @@ USE FLEX TO CREATE A THREE BUCKET LAYOUT:
 /*--------------------------------------------------
 BASIC RESPONSIVE LAYOUT FOR ALL BROWSERS:
 --------------------------------------------------*/
+
 .grid-container {
     max-width: 50em;
-    margin: 0;
+    margin: 0 auto;
 }
 
 /*--------------------------------------------------
