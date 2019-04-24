@@ -65,6 +65,7 @@ p {
     font-style: italic;
     font-size: 1.2em;
     color: #404040;
+    padding-bottom: 1em;
 }
 
 #mapInfoWindow h2 {
