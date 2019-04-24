@@ -193,6 +193,19 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
             grid-column: 1/3;
         }
         
+        .locationSection {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+        .googleMap {
+            grid-column: 1/2;
+        }
+        
+        .address {
+            grid-column: 2/3;
+        }
+        
         .footer {
             grid-column: 1/3;
         }
