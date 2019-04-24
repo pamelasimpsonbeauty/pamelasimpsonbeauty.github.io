@@ -37,7 +37,7 @@ TYPOGRAPHY:
 h1 {
     font-family: 'Parisienne', cursive;
     color: #F361AF;
-    font-size: 4em;
+    font-size: 3.5em;
     line-height: 1;
 }
 
@@ -62,6 +62,7 @@ p {
 
 .introText h2 {
     font-family: 'Lora', cursive;
+    font-style: italic;
     font-size: 1.2em;
     color: rgba(63, 48, 56, 0.85);
 }
