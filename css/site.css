@@ -157,12 +157,8 @@ footer {
     padding: 2em 1em;
 }
 
-footer p {
+footer p, footer a {
     color: #FFFFFF;
-}
-
-footer a {
-    color: #FEE1F0;
 }
 
 /*--------------------------------------------------
