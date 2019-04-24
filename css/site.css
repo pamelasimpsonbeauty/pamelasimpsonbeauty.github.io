@@ -37,19 +37,19 @@ TYPOGRAPHY:
 h1 {
     margin: 0;
     font-family: 'Parisienne', cursive;
-    color: #3F3038;
+    color: #F361AF;
     font-size: 2.5em;
 }
 
 h2 {
     font-family: 'Parisienne', cursive;
-    color: #3F3038;
+    color: #F361AF;
     font-size: 2em;
 }
 
 h3 {
     font-family: 'Parisienne', cursive;
-    color: #3F3038;
+    color: #F361AF;
     font-size: 24px;
 }
 
@@ -70,7 +70,8 @@ p {
 }
 
 a {
-    color: #FDAED8;
+    color: #526b9c;
+    text-decoration-style: dotted;
 }
 
 a:hover {
@@ -111,7 +112,7 @@ main div {
 .introText, .locationSection {
     background-color: #FDF6FA;
     padding: 1em 1em;
-    box-shadow: 2em 2em 2em 2em rgba(63,48,56,0.3);
+    box-shadow: 5px 5px 5px 5px rgba(63,48,56,0.3);
     margin-bottom: 2.5em;
 }
 
