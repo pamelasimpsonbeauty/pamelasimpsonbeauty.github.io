@@ -152,6 +152,11 @@ main div {
     color: #FFFFFF;
 }
 
+footer {
+    background-color: #F361AF;
+    color: #FFFFFF;
+}
+
 /*--------------------------------------------------
 USE FLEX TO CREATE A THREE BUCKET LAYOUT:
 --------------------------------------------------*/
