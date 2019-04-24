@@ -196,10 +196,16 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
         .locationSection {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            
+            padding: 0 0;
         }
         
         .googleMap {
             grid-column: 1/2;
+        }
+        
+        #map {
+            height: 100%;
         }
         
         .address {
