@@ -55,7 +55,7 @@ h3 {
 
 p {
     font-family: 'Hind Madurai', sans-serif;
-    color: #3F3038;
+    color: #404040;
     font-size: 1em;
     line-height: 0.5;
 }
@@ -64,7 +64,7 @@ p {
     font-family: 'Lora', cursive;
     font-style: italic;
     font-size: 1.2em;
-    color: rgba(63, 48, 56, 0.85);
+    color: #404040;
 }
 
 #mapInfoWindow h2 {
@@ -116,7 +116,7 @@ main div {
 }
 
 .introText, .locationSection {
-    background-color: #FDF6FA;
+    background-color: #FEE1F0;
     padding-top: 1em;
     padding-bottom: 3em;
     box-shadow: 5px 5px 5px 5px rgba(63,48,56,0.3);
