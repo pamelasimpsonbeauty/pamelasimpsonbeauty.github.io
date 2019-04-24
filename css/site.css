@@ -38,7 +38,7 @@ h1 {
     margin: 0;
     font-family: 'Parisienne', cursive;
     color: #584B53;
-    font-size: 48px;
+    font-size: 2.5em;
 }
 
 h2 {
@@ -56,7 +56,7 @@ h3 {
 p {
     font-family: 'Hind Madurai', sans-serif;
     color: #584B53;
-    font-size: 18px;
+    font-size: 1em;
     line-height: 0.5;
 }
 
@@ -97,12 +97,16 @@ header {
 
 main {
     background-color: #F7CED7;
+    padding: 1em 1em;
+}
+
+main div {
+    padding-bottom: 4em;
 }
 
 #map {
     height: 300px;
     max-width: 100%;
-    padding: 25px 0;
 }
 
 .button {
@@ -113,10 +117,6 @@ main {
     padding: 10px 15px;
     text-decoration: none;
     font-family: 'Hind Madurai', sans-serif;
-}
-
-#address {
-    padding-bottom: 25px;
 }
 
 /*--------------------------------------------------
