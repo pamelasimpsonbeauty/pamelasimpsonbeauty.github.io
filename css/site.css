@@ -108,7 +108,7 @@ main div {
     text-align: center;
 }
 
-.introText {
+.introText, .locationSection {
     background-color: #FDF6FA;
     padding: 1em 1em;
     box-shadow: 2em 2em 2em 2em rbga(63,48,56,0.3);
