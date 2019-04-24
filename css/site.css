@@ -133,6 +133,10 @@ main div {
     max-width: 100%;
 }
 
+#mapInfoWindowBodyContent p {
+    line-height: 1;
+}
+
 #address {
     padding: 1em;
 }
