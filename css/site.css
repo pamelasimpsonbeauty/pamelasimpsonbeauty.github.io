@@ -61,6 +61,8 @@ p {
 
 .introText h2 {
     font-family: 'Lora', cursive;
+    font-size: 1.2em;
+    color: #3F3038;
 }
 
 #mapInfoWindow h2 {
