@@ -259,13 +259,13 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
  
     @media screen and (min-width: 55em) {
         .grid-container {
-            grid-template-columns: 1fr 6fr 1fr;
+            grid-template-columns: 1fr 15fr 1fr;
         } 
     }
     
     @media screen and (min-width: 60em) {
         .grid-container {
-            grid-template-columns: 1fr 4fr 1fr;
+            grid-template-columns: 1fr 10fr 1fr;
         }
     }
     
