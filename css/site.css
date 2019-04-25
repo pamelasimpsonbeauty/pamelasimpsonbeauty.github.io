@@ -293,4 +293,16 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
             max-width: 12vw;
         }
     }
+    
+    @media screen and (min-width: 70em) {
+        .grid-container {
+            grid-template-columns: 1fr 3fr 1fr;
+        }
+    }
+    
+    @media screen and (min-width: 75em) {
+        .grid-container {
+            grid-template-columns: 1fr 2fr 1fr;
+        }
+    }
 }
