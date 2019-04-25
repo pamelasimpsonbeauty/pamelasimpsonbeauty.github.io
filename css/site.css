@@ -183,7 +183,7 @@ BASIC RESPONSIVE LAYOUT FOR ALL BROWSERS:
 }
 
 .pre-masthead, .post-masthead, .pre-footer, .post-footer{
-    grid-column: 0;
+    display: none;
     background-color: #F361AF;
 }
 
@@ -196,6 +196,10 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
             max-width: none;
             display: grid;
             grid-template-columns: 1fr 7fr 1fr;
+        }
+        
+        .pre-masthead, .post-masthead, .pre-footer, .post-footer{
+            display: inline;
         }
         
         .pre-masthead {
