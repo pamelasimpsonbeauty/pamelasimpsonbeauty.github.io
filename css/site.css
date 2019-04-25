@@ -286,6 +286,7 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
     @media screen and (min-width: 65em) {
         .grid-container {
             grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 1fr 4fr 1fr;
         }
         
         .logo {
