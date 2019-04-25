@@ -195,7 +195,7 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
         .grid-container {
             max-width: none;
             display: grid;
-            grid-template-columns: 1fr 5fr 1fr;
+            grid-template-columns: 1fr 4fr 1fr;
         }
         
         .pre-masthead, .post-masthead, .pre-footer, .post-footer{
