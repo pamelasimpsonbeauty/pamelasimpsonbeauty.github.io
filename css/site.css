@@ -183,7 +183,7 @@ BASIC RESPONSIVE LAYOUT FOR ALL BROWSERS:
 }
 
 .pre-masthead, .post-masthead, .pre-footer, .post-footer{
-    display: none;
+    grid-column: 0;
     background-color: #F361AF;
 }
 
