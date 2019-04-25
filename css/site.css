@@ -200,6 +200,7 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
             max-width: none;
             display: grid;
             grid-template-columns: 1fr 20fr 1fr;
+            grid-template-rows: 1fr 2fr 1fr;
         }
         
         .pre-masthead, .post-masthead, .pre-footer, .post-footer{
@@ -208,52 +209,65 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
         
         .pre-masthead {
             grid-column: 1/2;
+            grid-row: 1/2;
         }
         
         .masthead {
             grid-column: 2/3;
+            grid-row: 1/2;            
         }
         
         .post-masthead {
             grid-column: 3/4;
+            grid-row: 1/2;            
         }
         
         .main-area {
             grid-column: 2/3;
+            grid-row: 2/3;            
         }
         
-        .locationSection {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            
-            padding: 0 0;
-        }
-        
-        .googleMap {
-            grid-column: 1/2;
-        }
-        
-        #map {
-            height: 100%;
-        }
-        
-        .address {
-            grid-column: 2/3;
-            
-            padding-top: 1em;
-            padding-bottom: 3em;
-        }
+            /************************************
+            NEW GRID - LOCATION SECTION
+            ************************************/
+            .locationSection {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                padding: 0 0;
+            }
+
+            .googleMap {
+                grid-column: 1/2;
+            }
+
+            #map {
+                height: 100%;
+            }
+
+            .address {
+                grid-column: 2/3;
+
+                padding-top: 1em;
+                padding-bottom: 3em;
+            }
+            /*************************************
+            END LOCATION SECTION GRID
+            *************************************/
         
         .pre-footer {
             grid-column: 1/2;
+            grid-row: 3/4;                        
         }
         
         .footer {
             grid-column: 2/3;
+            grid-row: 3/4;                        
         }
         
         .post-footer {
             grid-column: 3/4;
+            grid-row: 3/4;                                    
         }
     }
  
