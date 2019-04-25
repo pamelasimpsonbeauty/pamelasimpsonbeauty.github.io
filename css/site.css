@@ -287,5 +287,9 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
         .grid-container {
             grid-template-columns: 1fr 2fr 1fr;
         }
+        
+        .logo {
+            max-width: 20vw;
+        }
     }
 }
