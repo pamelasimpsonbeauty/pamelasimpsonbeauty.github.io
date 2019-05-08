@@ -79,12 +79,17 @@ p {
 }
 
 a {
-    color: #42619C;
-    text-decoration-style: dotted;
+    text-decoration: none;
 }
 
-a:hover {
+p a {
+    color: #42619C;
+    border-bottom: 2px dotted #42619C;
+}
+
+p a:hover {
     color: #F361AF;
+    border-bottom: 2px dotted #F361AF;    
 }
 
 .boldFont {
