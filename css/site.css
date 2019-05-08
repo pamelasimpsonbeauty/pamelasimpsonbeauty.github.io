@@ -87,6 +87,10 @@ a:hover {
     color: #F361AF;
 }
 
+.boldFont {
+    font-weight: 700;
+}
+
 
 /*--------------------------------------------------
 GENERAL STYLING:
@@ -118,14 +122,14 @@ main div {
     text-align: center;
 }
 
-.introText, .locationSection {
+.introText, .locationSection, .productSection {
     background-color: #FEE1F0;
     padding-bottom: 3em;
     box-shadow: 7px 7px 4px 3px rgba(63,48,56,0.3);
     margin-bottom: 2.5em;
 }
 
-.introText {
+.introText, .productSection {
     padding-top: 1em;
 }
 
@@ -158,6 +162,14 @@ main div {
 
 .button a:hover {
     color: #FFFFFF;
+}
+
+#productImage1, #productImage2 {
+    padding: 1.5em 1.5em;
+}
+
+.productSection img {
+    max-width: 300px;
 }
 
 footer {
@@ -254,6 +266,25 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
             /*************************************
             END LOCATION SECTION GRID
             *************************************/
+        
+            /************************************
+            NEW GRID - PRODUCTS SECTION
+            ************************************/
+            .products {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            #productImage1 {
+                grid-column: 1/2;
+            }
+
+            #productImage2 {
+                grid-column: 2/3;
+            }       
+            /*************************************
+            END PRODCUT SECTION GRID
+            *************************************/        
         
         .pre-footer {
             grid-column: 1/2;
