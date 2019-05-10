@@ -100,6 +100,19 @@ p a:hover {
     font-weight: 700;
 }
 
+footer p{
+    color: #FFFFFF;
+}
+
+footer a {
+    color: #FFFFFF;
+    border-bottom: 2px dotted #FFFFFF;    
+}
+
+footer a:hover {
+    color: #FEE1F0;
+    border-bottom: 2px dotted #FEE1F0;    
+}
 
 /*--------------------------------------------------
 GENERAL STYLING:
@@ -184,10 +197,6 @@ main div {
 footer {
     background-color: #F361AF;
     padding: 2em 1em;
-}
-
-footer p, footer a {
-    color: #FFFFFF;
 }
 
 /*--------------------------------------------------
