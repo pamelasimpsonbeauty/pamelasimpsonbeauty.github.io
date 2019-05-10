@@ -37,7 +37,7 @@ function initMap() {
                         '</div>'+
                     '</div>';
                 var infowindow = new google.maps.InfoWindow({content: contentString});
-                var markerIcon = "http://maps.google.com/mapfiles/ms/icons/pink-dot.png";
+                var markerIcon = "https://maps.google.com/mapfiles/ms/icons/pink-dot.png";
                 var marker = new google.maps.Marker({position: salonSerenity, map: map, title: 'Pamela Simpson Beauty Salon', icon: markerIcon});
                 marker.addListener('click', function() {infowindow.open(map, marker);});
             }
