@@ -303,15 +303,23 @@ CSS GRID LAYOUT FOR MODERN BROWSERS:
             .products {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
             }
 
             #productImage1 {
                 grid-column: 1/2;
+                grid-row: 1/2;
             }
 
             #productImage2 {
                 grid-column: 2/3;
+                grid-row: 1/2;
             }       
+        
+            #productImage3 {
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
             /*************************************
             END PRODCUT SECTION GRID
             *************************************/        
